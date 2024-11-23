@@ -1,0 +1,16 @@
+{
+  "name": "repo-docs",
+  "version": "1.0.0",
+  "description": "Holds repomix files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "repomix": "node repomix/repomix.cjs",
+    "repomix:all": "node repomix/repomix.cjs --all"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "repomix": "^0.2.3"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "output": {
+    "filePath": "output.md",
+    "style": "markdown",
+    "removeComments": false,
+    "removeEmptyLines": false,
+    "topFilesLength": 5,
+    "showLineNumbers": false
+  },
+  "include": "src/content/docs/pages/functions/**/*",
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": [
+      "**/*.i18n.*",
+      "**/*.constants.*",
+      "**/*.config.*",
+      "**/*.env.*",
+      "**/*.secret.*",
+      "**/*.svg"
+    ]
+  },
+  "security": {
+    "enableSecurityCheck": true
+  }
+}
